@@ -17,7 +17,7 @@ var makeSexyDancer = function(top, left, timeBetweenSteps) {
     blinkyDancer.$node.animate({height: "200px"}, 500);
   };
 
-  blinkyDancer.$node.css('border','10px solid blue')
+  blinkyDancer.$node.css('border','10px solid blue');
 
   return blinkyDancer;
 };
